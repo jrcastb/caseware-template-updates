@@ -1,0 +1,11 @@
+/home/jrcastb/Documentos/files/caseware-template-updates/fanout-worker/src/test/java/com/caseware/templateupdates/fanout/adapter/inmemory/AdaptiveCapacityLimiterTest.java
+/home/jrcastb/Documentos/files/caseware-template-updates/fanout-worker/src/test/java/com/caseware/templateupdates/fanout/adapter/inmemory/InMemoryBindingProjectionTest.java
+/home/jrcastb/Documentos/files/caseware-template-updates/fanout-worker/src/test/java/com/caseware/templateupdates/fanout/adapter/inmemory/InMemoryWorkQueueTest.java
+/home/jrcastb/Documentos/files/caseware-template-updates/fanout-worker/src/test/java/com/caseware/templateupdates/fanout/app/FanOutWorkerTest.java
+/home/jrcastb/Documentos/files/caseware-template-updates/fanout-worker/src/test/java/com/caseware/templateupdates/fanout/app/PublishFanOutPlannerTest.java
+/home/jrcastb/Documentos/files/caseware-template-updates/fanout-worker/src/test/java/com/caseware/templateupdates/fanout/app/RetryPolicyTest.java
+/home/jrcastb/Documentos/files/caseware-template-updates/fanout-worker/src/test/java/com/caseware/templateupdates/fanout/domain/VersionSemanticsPropertyTest.java
+/home/jrcastb/Documentos/files/caseware-template-updates/fanout-worker/src/test/java/com/caseware/templateupdates/fanout/domain/VersionSemanticsTest.java
+/home/jrcastb/Documentos/files/caseware-template-updates/fanout-worker/src/test/java/com/caseware/templateupdates/fanout/testsupport/CountingLimiter.java
+/home/jrcastb/Documentos/files/caseware-template-updates/fanout-worker/src/test/java/com/caseware/templateupdates/fanout/testsupport/FakeEngagementStateReader.java
+/home/jrcastb/Documentos/files/caseware-template-updates/fanout-worker/src/test/java/com/caseware/templateupdates/fanout/testsupport/MutableClock.java

@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 830" width="1200" height="830" font-family="Helvetica, Arial, 'Liberation Sans', sans-serif">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker></defs>
+<rect width="1200" height="830" fill="#ffffff"/>
+<rect x="8" y="10" width="1184" height="250" rx="12" fill="#f3f7ff" stroke="#8aa4d6" stroke-dasharray="5 4"/>
+<text x="22" y="32" font-size="13" font-weight="bold" text-anchor="start" fill="#2b4c8c">GLOBAL: template data only (not firm-specific), no residency constraint</text>
+<rect x="8" y="290" width="1184" height="490" rx="12" fill="#fffaf0" stroke="#d1a24a" stroke-dasharray="5 4"/>
+<text x="22" y="312" font-size="13" font-weight="bold" text-anchor="start" fill="#8a5a00">EACH RESIDENCY REGION (US, EU, CA): firm data never leaves it</text>
+<rect x="30" y="75" width="120" height="50" rx="9" fill="#e6e6e6" stroke="#555555" stroke-width="1.4"/>
+<text x="90.0" y="104.0" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Content teams</text>
+<path d="M180,81 L180,119 A75.0,6 0 0 0 330,119 L330,81" fill="#e6e6e6" stroke="#555555" stroke-width="1.4"/>
+<ellipse cx="255.0" cy="81" rx="75.0" ry="6" fill="#e6e6e6" stroke="#555555" stroke-width="1.4"/>
+<text x="255.0" y="103.5" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Template Store DB</text>
+<text x="255.0" y="117.5" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">all versions</text>
+<rect x="370" y="75" width="170" height="50" rx="9" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<text x="455.0" y="97.5" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">EventBridge</text>
+<text x="455.0" y="111.5" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">publish / withdraw hook</text>
+<rect x="590" y="40" width="170" height="46" rx="9" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<text x="675.0" y="60.5" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Graph Sync λ</text>
+<text x="675.0" y="74.5" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">+ 5-min repair from store</text>
+<path d="M1000,46 L1000,80 A90.0,6 0 0 0 1180,80 L1180,46" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<ellipse cx="1090.0" cy="46" rx="90.0" ry="6" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<text x="1090.0" y="66.5" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Version Graph</text>
+<text x="1090.0" y="80.5" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">DynamoDB global table</text>
+<rect x="590" y="135" width="170" height="46" rx="9" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<text x="675.0" y="155.5" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Summary Service λ</text>
+<text x="675.0" y="169.5" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">jobs via SQS</text>
+<path d="M800,141 L800,175 A90.0,6 0 0 0 980,175 L980,141" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<ellipse cx="890.0" cy="141" rx="90.0" ry="6" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<text x="890.0" y="161.5" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Summary Archive</text>
+<text x="890.0" y="175.5" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">S3, Object Lock</text>
+<rect x="590" y="205" width="170" height="36" rx="9" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<text x="675.0" y="220.5" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Amazon Bedrock</text>
+<text x="675.0" y="234.5" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">pinned model</text>
+<rect x="420" y="200" width="140" height="36" rx="9" fill="#e6e6e6" stroke="#555555" stroke-width="1.4"/>
+<text x="490.0" y="222.0" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">JSON diff tool</text>
+<path d="M150,100 L180,100" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<path d="M330,100 L370,100" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="350" y="92" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#222">hook</text>
+<path d="M540,100 L565,100 L565,63 L590,63" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<path d="M565,100 L565,158 L590,158" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<path d="M760,63 L1000,63" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="880" y="56" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#222">upsert node (idempotent)</text>
+<path d="M760,158 L800,158" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<path d="M675,181 L675,205" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<path d="M590,172 L575,172 L575,218 L560,218" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<path d="M1090,86 L1090,315" fill="none" stroke="#333" stroke-width="1.4" stroke-dasharray="6 4" marker-end="url(#ah)"/>
+<text x="1097" y="280" font-size="10.5" font-weight="normal" text-anchor="start" fill="#222">replicate</text>
+<path d="M400,125 L400,270" fill="none" stroke="#333" stroke-width="1.4" stroke-dasharray="6 4" marker-end="url(#ah)"/>
+<circle cx="400" cy="281" r="11" fill="#fff" stroke="#6a3fb5" stroke-width="1.6"/>
+<text x="400" y="285" font-size="11" font-weight="bold" text-anchor="middle" fill="#6a3fb5">A</text>
+<text x="386" y="285" font-size="10.5" font-weight="normal" text-anchor="end" fill="#6a3fb5">cross-region rule: template events only</text>
+<rect x="30" y="330" width="160" height="50" rx="9" fill="#e6e6e6" stroke="#555555" stroke-width="1.4"/>
+<text x="110.0" y="352.5" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Web app</text>
+<text x="110.0" y="366.5" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">indicator, list, summary</text>
+<rect x="260" y="330" width="250" height="50" rx="9" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<text x="385.0" y="352.5" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Status API: API Gateway + λ</text>
+<text x="385.0" y="366.5" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">status per cohort = f(binding, graph)</text>
+<rect x="800" y="315" width="380" height="50" rx="9" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<text x="990.0" y="337.5" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Version Graph replica</text>
+<text x="990.0" y="351.5" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">DynamoDB global table, read-only</text>
+<path d="M560,430 L560,484 A120.0,6 0 0 0 800,484 L800,430" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<ellipse cx="680.0" cy="430" rx="120.0" ry="6" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<text x="680.0" y="454.0" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Binding Projection</text>
+<text x="680.0" y="468.0" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">bindings, cohort counts,</text>
+<text x="680.0" y="482.0" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">decision log by summary id</text>
+<rect x="30" y="520" width="160" height="60" rx="9" fill="#e6e6e6" stroke="#555555" stroke-width="1.4"/>
+<text x="110.0" y="547.5" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Engagement Service</text>
+<text x="110.0" y="561.5" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">load ~1 min, decisions</text>
+<path d="M30,686 L30,729 A80.0,6 0 0 0 190,729 L190,686" fill="#e6e6e6" stroke="#555555" stroke-width="1.4"/>
+<ellipse cx="110.0" cy="686" rx="80.0" ry="6" fill="#e6e6e6" stroke="#555555" stroke-width="1.4"/>
+<text x="110.0" y="711.0" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Customer DBs</text>
+<text x="110.0" y="725.0" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">+ outbox table (new)</text>
+<rect x="260" y="680" width="200" height="55" rx="9" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<text x="360.0" y="705.0" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">EventBridge</text>
+<text x="360.0" y="719.0" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">regional bus</text>
+<rect x="560" y="600" width="220" height="44" rx="9" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<text x="670.0" y="619.5" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Projector λ</text>
+<text x="670.0" y="633.5" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">binding + cohort move, one txn</text>
+<rect x="860" y="476" width="300" height="78" rx="9" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<text x="1010.0" y="506.0" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Fan-out Worker (Part 2)</text>
+<text x="1010.0" y="520.0" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">ECS Fargate · AIMD limit ≤ grant</text>
+<text x="1010.0" y="534.0" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">shared Retry-After pause · timeout quarantine</text>
+<path d="M860,600 L860,642 A150.0,6 0 0 0 1160,642 L1160,600" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<ellipse cx="1010.0" cy="600" rx="150.0" ry="6" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<text x="1010.0" y="624.5" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Work table</text>
+<text x="1010.0" y="638.5" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">DynamoDB · 1 item/engagement · fair per firm</text>
+<rect x="860" y="690" width="300" height="44" rx="9" fill="#d4f0dc" stroke="#2e7d4f" stroke-width="1.4"/>
+<text x="1010.0" y="709.5" font-size="12.5" font-weight="bold" text-anchor="middle" fill="#111">Fan-out Planner λ</text>
+<text x="1010.0" y="723.5" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#333">SUSPECT bindings only</text>
+<path d="M190,345 L260,345" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="225" y="338" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#111">status</text>
+<path d="M490,330 L490,272 L850,272 L850,181" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="858" y="230" font-size="10.5" font-weight="normal" text-anchor="start" fill="#222">read summary (template data)</text>
+<path d="M510,340 L800,340" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="655" y="333" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#222">graph</text>
+<path d="M450,380 L450,458 L560,458" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="505" y="451" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#222">cohorts, pages</text>
+<path d="M110,380 L110,520" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="118" y="440" font-size="10.5" font-weight="normal" text-anchor="start" fill="#222">apply / decline</text>
+<text x="118" y="453" font-size="10.5" font-weight="normal" text-anchor="start" fill="#222">(target, summaryId)</text>
+<path d="M110,580 L110,680" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="118" y="622" font-size="10.5" font-weight="normal" text-anchor="start" fill="#222">decision + outbox row</text>
+<text x="118" y="635" font-size="10.5" font-weight="normal" text-anchor="start" fill="#222">(same transaction)</text>
+<path d="M190,707 L260,707" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="225" y="700" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#222">relay</text>
+<circle cx="430" cy="615" r="11" fill="#fff" stroke="#6a3fb5" stroke-width="1.6"/>
+<text x="430" y="619" font-size="11" font-weight="bold" text-anchor="middle" fill="#6a3fb5">A</text>
+<path d="M430,626 L430,680" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<path d="M460,695 L500,695 L500,622 L560,622" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="494" y="650" font-size="10.5" font-weight="normal" text-anchor="end" fill="#222">Binding</text>
+<text x="494" y="663" font-size="10.5" font-weight="normal" text-anchor="end" fill="#222">Observed</text>
+<path d="M660,600 L660,490" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="668" y="545" font-size="10.5" font-weight="normal" text-anchor="start" fill="#222">revision-guarded</text>
+<path d="M460,720 L860,720" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="650" y="713" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#222">TemplatePublished</text>
+<path d="M1010,690 L1010,648" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<path d="M1010,594 L1010,554" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<path d="M860,505 L800,470" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="814" y="456" font-size="10.5" font-weight="normal" text-anchor="start" fill="#222">revision-guarded</text>
+<path d="M1160,515 L1185,515 L1185,765 L15,765 L15,550 L30,550" fill="none" stroke="#333" stroke-width="1.4" marker-end="url(#ah)"/>
+<text x="600" y="758" font-size="10.5" font-weight="normal" text-anchor="middle" fill="#222">load engagement (~1 min): backfill and SUSPECT bindings only, never on the publish path</text>
+<rect x="30" y="796" width="18" height="14" rx="3" fill="#d4f0dc" stroke="#2e7d4f"/>
+<text x="54" y="807" font-size="11.5" font-weight="normal" text-anchor="start" fill="#111">new</text>
+<rect x="100" y="796" width="18" height="14" rx="3" fill="#e6e6e6" stroke="#555555"/>
+<text x="124" y="807" font-size="11.5" font-weight="normal" text-anchor="start" fill="#111">existing</text>
+<text x="200" y="807" font-size="11" font-weight="normal" text-anchor="start" fill="#444">solid: data or control flow  ·  dashed: replication  ·  cylinder: data store  ·  A: off-page connector</text>
+</svg>
